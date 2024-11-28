@@ -260,7 +260,7 @@ body {
 .card h3 {
     font-size: 18px;
     margin-bottom: 15px;
-    color: #fff;
+    color: hwb(145 3% 3%);
 }
 
 /* Estilo para el botón */
