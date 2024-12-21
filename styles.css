@@ -267,7 +267,7 @@ body {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
-    color: white;
+    color: rgb(241, 9, 9);
     background-color: #007BFF; /* Color azul */
     border: none;
     border-radius: 5px;
@@ -480,6 +480,24 @@ body {
 .btn:hover {
     background-color: #0056b3; /* Color más oscuro al pasar el mouse */
 }
+/* Estilo para el botón */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007BFF; /* Color azul */
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+}
 
 /* Estilo del body */
 body {
@@ -491,7 +509,7 @@ body {
 
 /* Pie de página */
 .footer {
-    background-color: #333;
+    background-color: rgb(109, 112, 108);
     color: white;
     text-align: center;
     padding: 15px;
